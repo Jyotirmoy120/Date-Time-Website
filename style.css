@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    background: radial-gradient(ellipse at center, #84c1d2 0%, rgb(129, 191, 227) 70%);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    font-family: "Share Tech Mono", monospace;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #05397d;
+    text-shadow: 0 0 20px #0d8964, 0 0 20px rgba(149, 92, 199, 0);
+}
+
+#time {
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+}
+
+#date {
+    letter-spacing: 0.1em;
+    font-size: 24px;
+}
+
+
